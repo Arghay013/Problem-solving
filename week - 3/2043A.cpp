@@ -1,17 +1,22 @@
+
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long
 #define optimize() ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
 void solve(){
-    int n;
+    ll n;
+    ll t=1;
     cin>>n;
-    int ans=0;
-    // for(int i=1; i<=n; i++){
-    //     if(abs(i-n) < n){
-    //         ans++;
-    //     }
-    // }
-    cout<<n-1<<'\n';
+    if(n<4){
+        cout<<1<<'\n';return;
+    }
+    ll ans=1;
+    while(n>=4){
+        n/=4;
+        ans*=2;
+    }
+    cout<<ans<<'\n';
+    // t++;
 }
 int main() {
     optimize();

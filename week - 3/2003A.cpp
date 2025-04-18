@@ -5,13 +5,10 @@ using namespace std;
 void solve(){
     int n;
     cin>>n;
-    int ans=0;
-    // for(int i=1; i<=n; i++){
-    //     if(abs(i-n) < n){
-    //         ans++;
-    //     }
-    // }
-    cout<<n-1<<'\n';
+    string s;
+    cin>>s;
+    if(s[0] != s[n-1])cout<<"YES\n";
+    else cout<<"NO\n";
 }
 int main() {
     optimize();

@@ -3,15 +3,14 @@ using namespace std;
 #define ll long long
 #define optimize() ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
 void solve(){
-    int n;
-    cin>>n;
-    int ans=0;
-    // for(int i=1; i<=n; i++){
-    //     if(abs(i-n) < n){
-    //         ans++;
-    //     }
-    // }
-    cout<<n-1<<'\n';
+    int a,b,c,x=5;
+    cin>>a>>b>>c;
+    vector<int> v(3);v[0]=a;v[1]=b;v[2]=c;
+    while(x--){
+        sort(v.begin(), v.end());
+        v[0]+=1;
+    }
+    cout<<v[0]*v[1]*v[2]<<'\n';
 }
 int main() {
     optimize();
