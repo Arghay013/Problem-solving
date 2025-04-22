@@ -20,7 +20,7 @@ int main() {
             cnt2++; j++;
                 
         }
-        ans += (cnt1 * cnt2 * 1LL);
+        ans += (1LL * cnt1 * cnt2);
         cnt1=0; cnt2=0;
         
         
