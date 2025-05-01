@@ -59,5 +59,12 @@
   "files.associations": {
     "*.embeddedhtml": "html",
     "iostream": "cpp"
+  },
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "cpp": false
   }
 }
