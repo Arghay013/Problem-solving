@@ -58,6 +58,14 @@
   "C_Cpp_Runner.msvcSecureNoWarnings": false,
   "files.associations": {
     "*.embeddedhtml": "html",
-    "iostream": "cpp"
+    "iostream": "cpp",
+    "ostream": "cpp"
+  },
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "cpp": false
   }
 }
